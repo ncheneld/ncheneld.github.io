@@ -1,1 +1,39 @@
+.header {
+    background-image: url("../assets/resources/profilepic2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
 
+/* .navbar{
+    background: #f5e214;
+} */
+.nav-link, .navbar-brand{
+    color:#1b1919;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: #0044ff;
+}
+
+/* .navbar-collapse {
+    justify-content: flex-end; 
+} */
+
+.jumbotron {
+    background: none;
+}
+
+.jumbotron h1{
+    color: #000000;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.185);
+   }
